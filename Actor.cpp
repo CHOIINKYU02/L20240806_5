@@ -5,6 +5,7 @@ using namespace std;
 
 AActor::AActor()
 {
+	
 }
 AActor::~AActor()
 {

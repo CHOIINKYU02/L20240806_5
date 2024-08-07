@@ -24,5 +24,20 @@ int add(int A, int B)
 int main()
 {
 
+
+
+	for (int i = 0; i < Actors.Size(); ++i)
+	{
+		APlayer* Player = dynamic_cast<APlayer*>(Actors[i]);
+		if (player != nullptr)
+		{
+			player->Attack();
+		}
+		Actors[i]->Move();
+	}
+
+	//추가할것
+
+
 	return 0;
 }
